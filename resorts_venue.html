@@ -1,0 +1,243 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Imported Font For Heading " Destination Weeding" -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet"  href="styles3.css">
+
+<script src="/JavaScript/filters.js"></script>
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+
+<!-- Isotope Js  -->
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+<!-- Jquerry  -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+
+    <title>Document</title>
+</head>
+<body>
+
+
+    <header>
+        <h1>Destination <br> Wedding</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/destination_wedding.html">Wedding Destinations</a></li>
+            <li><a href="/resorts_venue.html">Resorts & Venue</a></li>
+            <li><a href="/wedding_planning.html">Wedding Planning</a></li>
+            <li><a href="/project/about.html">About Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="box_head1">
+
+    <h3 class="head1"> Find Your Perfect Resort</h3>
+
+    <p class="para1">  Discover the perfect setting for your destination wedding among our diverse selection of all-inclusive resorts and boutique hotels scattered across the globe. Use our user-friendly filters to narrow down your options based on your preferences, ensuring a tailored experience that aligns perfectly with your vision. 
+        
+        <br> <br>
+        Once you've found your dream venue, simply save your favorites and request a personalized quote. Our dedicated team of Certified Destination Wedding Specialists is poised to assist you every step of the way, ensuring a seamless and unforgettable celebration in paradise. Start planning your dream wedding today with us!   </p>
+
+    
+</div>
+
+<h3 class="head2"> All Wedding Resorts  </h3>
+
+  <div class="filters">
+    
+ <!--   <div class="destination_filters">
+        <h5 class="destination_filter_head">Destinations</h5>
+        <ul class="list_destination">
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Udaipur</li>
+            
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Jaipur</li>
+            
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Shimla</li>
+            
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Manali</li>
+            
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Lonavala</li>
+        </ul>
+    </div>       -->
+
+
+
+    <div class="filters">
+        <div class="destination_filters">
+            <div class="search">
+                <input type="text" id="searchInput" class="search_input" oninput="searchDestinations()" placeholder="Search destinations...">
+                <button class="search_btn">Search</button>
+            </div>
+    
+            <h5 class="destination_filter_head">Destinations</h5>
+    
+            <ul class="list_destination">
+                <li><label><input type="checkbox" checked="checked" class="destination_checkbox" value="Jim-Corbet" id="Jim-Corbet" onchange="filterImages()">Jim Corbett</label></li>
+                <li><label><input type="checkbox" checked="checked" class="destination_checkbox" value="Jaipur" id="Jaipur" onchange="filterImages()">Jaipur</label></li>
+                <li><label><input type="checkbox" checked="checked" class="destination_checkbox" value="Kumarakon-Lake" id="Kumarakon-Lake" onchange="filterImages()">Kumarakon Lake</label></li>
+                <li><label><input type="checkbox" checked="checked" class="destination_checkbox" value="Andaman-Nicobar" id="Andaman-Nicobar" onchange="filterImages()">Andaman & Nicobar</label></li>
+                <li><label><input type="checkbox" checked="checked" class="destination_checkbox" value="Mussoorie" id="Mussoorie" onchange="filterImages()">Mussoorie</label></li>
+                <li><label><input type="checkbox" checked="checked" class="destination_checkbox" value="Kovalam-Beach" id="Kovalam-Beach" onchange="filterImages()">Kovalam Beach</label></li>
+            </ul>
+        </div>
+    </div>
+    
+    
+     <div class="hotel_class">
+        <h5 class="hotel_class_head">Hotel Class</h5>
+        <ul class="hotel_class_list">
+            
+            <li><label><input type="checkbox" checked="checked" class="checkbox"></label> 3 Star</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox"></label> 3.5 Star</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox"></label> 4 Star</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox"></label> 4.5 Star</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox"></label> 5 Star</li>
+        </ul>
+    </div> 
+    
+    <div class="venue">
+        <h5 class="venue_head">Venue </h5>
+        <ul class="venue_list">
+            <li><label><input type="checkbox" checked="checked" onchange="change()" class="checkbox"></label> Outdoor</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Indoor</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Ballroom</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Garden</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Beach</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Gazebo</li>
+            <li><label><input type="checkbox" checked="checked" class="checkbox" onchange="change()"></label> Rooftop</li>
+        </ul>
+    </div>
+
+</div> 
+
+
+    <!-- Add other filter categories as needed -->
+
+
+
+    <div class="filtered_images"> 
+        <div class="img1" id="Jim-Corbet" style="display: block;">
+            <img src="/Destinations/Wedding Destinations/Jim Corbet.jpg" class="jim_corbet">
+            <div class="caption_img1">Jim Corbet</div>
+        </div>
+
+        <div class="img2" id="Jaipur" style="display: block;">
+            <img src="/Destinations/Wedding Destinations/Jaipur.jpg" class="Jaipur">
+            <div class="caption_img2">Jaipur</div>
+        </div>
+
+        <div class="img3" id="Kumarakon-Lake" style="display: block;">
+            <img src="/Destinations/Wedding Destinations/kumarakom_lake_resort Keral.jpg" class="kumarakom">
+            <div class="caption_img3">Kumarakon Lake <br> Resort</div>
+        </div>
+
+        <div class="img4" id="Andaman-Nicobar" style="display: block;">
+            <img src="/Destinations/Wedding Destinations/Andaman & Nicobar.jpg" class="andaman_nicobar">
+            <div class="caption_img4">Andaman & Nicobar</div>
+        </div>
+
+        <div class="img5" id="Kovalam-Beach" style="display: block;">
+            <img src="/Destinations/Wedding Destinations/Kovalam-Beach.jpg" class="kovalam">
+            <div class="caption_img5">Kovalam-Beach</div>
+        </div>
+
+        <div class="img6" id="Mussoorie" style="display: block;">
+            <img src="/Destinations/Wedding Destinations/mussoorie.jpg" class="mussoorie">
+            <div class="caption_img6">Mussoorie</div>
+        </div>
+    </div>
+
+
+<!-- </div>  -->    
+
+
+
+
+<hr class="hr1">
+
+<br>
+
+<div class="aboutus">
+    <div class="about-us-text1">Why Choose Us</div>
+    <ul>
+    <li><b href="/project/about.html"> About Us</b></li>
+      <li>Contact Us</li>
+      <li>Customer Reviews</li>
+      <li>Press & Awards</li>
+      <li>Find A Weeding</li>
+      
+
+    </ul>
+  </div>
+
+
+
+
+  <br>
+
+  
+  <!-- <form class="form">
+<h5 class="head3"> Forever Beings Here </h5>
+<!-- <label for="full-name">Full Name</label>     
+
+<h5 class="">
+<input type="text" id="full-name"  name="full-name" placeholder="First Name" ><br>
+<br>
+
+<!--  <label for="email">Email</label>   
+<input type="email" id="email"  name="email"  placeholder="Email"><br>
+<br>
+
+<input type="text"  id="textbox" placeholder="How Can I Help You?"><br>
+<br>
+
+<input type="submit" value="Submit" id="submit"  >
+
+
+</form> -->
+
+
+<br>
+
+
+<div class="connectus">Connect With Us    </div>
+
+
+<div class="wrapper">
+    <a href="#" class="icon facebook">
+      <div class="tooltip">Facebook</div>
+      <span><i class="fab fa-facebook-f"></i></span>
+    </a>
+    <a href="#" class="icon twitter">
+      <div class="tooltip">Twitter</div>
+      <span><i class="fab fa-twitter"></i></span>
+    </a>
+    <a href="#" class="icon instagram">
+      <div class="tooltip">Instagram</div>
+      <span><i class="fab fa-instagram"></i></span>
+    </a>
+    <a href="#" class="icon github">
+      <div class="tooltip">Github</div>
+      <span><i class="fab fa-github"></i></span>
+    </a>
+    <a href="#" class="icon youtube">
+      <div class="tooltip">Youtube</div>
+      <span><i class="fab fa-youtube"></i></span>
+    </a>
+  </div>
+
+
+    
+</body>
+</html>

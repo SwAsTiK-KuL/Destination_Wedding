@@ -1,0 +1,551 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('F:\PBL-6\Destination Wedding\Images\DW-1.jpg'); /* Replace with the actual URL or path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black; 
+    background-image: url("F:\PBL-6\Destination Wedding\destination-wedding.png");
+    /* background: linear-gradient(180deg, White 30%,rgb(226, 14, 205) 100%); */
+    background: linear-gradient(90deg, rgb(248, 168, 217) 0%, white 50%, rgb(248, 168, 217) 100%);
+
+
+}
+
+header {
+    background-color: rgb(4, 4, 4);
+    /* margin-left: 20px; */
+    padding: 1em;
+    text-align: left;
+    font-size: 10px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+nav {
+    font-size: 8px;
+    margin-left: 120px;
+    margin-right: 40px;
+    margin-top: -60px;
+    background-color: rgb(226, 14, 205);
+    padding: 10px;
+    /* background: linear-gradient(90deg, White 10%,rgb(226, 14, 205) 50%); */
+    background: linear-gradient(90deg, rgb(255, 23, 166) 0%, white 50%, rgb(255, 23, 161) 100%);
+    border-radius: 10px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+nav ul {
+    margin-left: -70px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover{
+color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+.head1{
+    text-align: center;
+    font-size: 22px;
+    
+}
+
+.para1{
+    font-size: 12px;
+}
+
+.box_head1{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: white;
+    margin-left: 12em;
+    margin-right: 12em;
+    margin-top: 7em;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+    line-height: 1.5;
+}
+
+.head2{
+    margin-top: 3em;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.filters{
+    display: block;
+    margin-left: 7em;
+    margin-right: 38em;
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.filtered_images{
+    margin-top: -3em;
+}
+
+.destination_filters .destination_filter_head.dropdown .list_destination {
+    display: block;
+    /* margin-left: -6em; */
+ }
+
+.destination_filters .destination_filter_head.dropdown{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+
+} 
+
+.destination_filter_head, .hotel_class_head, .venue_head{
+    margin-left: -10em;
+}
+
+.list_destination,.hotel_class_list,.venue_list{
+    margin-top: -1em;
+}
+
+.destination_filter_head{
+    margin-left: -0.2em;
+}
+
+.list_destination{
+    margin-left: -2.6em;
+    display: block;
+}
+
+
+.hotel_class,.venue{
+    margin-left: 15.5em;
+}
+
+.checkbox{
+    margin-left: -10.5em;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox:checked{
+    appearance: auto;
+    
+}
+
+/* Images */
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+.filtered_images{
+    margin-left: 12.2em;
+}
+
+.search{
+    margin-left: -6em;
+    line-height: 1.5;
+    display: flex;
+}
+
+.searchBar{
+    font-size: 16px;
+
+}
+
+.search_text{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.search_btn{
+    font-size: 10;
+    margin-left: 7;
+    margin-top: 0px;
+}
+
+.jim_corbet,.Jaipur,.kumarakom,.andaman_nicobar,.kovalam,.mussoorie{
+    width: 200px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+
+.img1{
+    margin-top: -35em;
+    margin-left: 25em;
+    padding-bottom: 10px;
+    background-color: #fff;
+    margin-right: 23.9em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img2{
+    margin-top: -11.7em;
+    margin-left: 44em;
+    padding-bottom: 10px;
+    background-color: #fff;
+    margin-right: 4.9em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+
+}
+
+.img3{
+    margin-top: 3em;
+    margin-left: 25.2em;
+    padding-bottom: 10px;
+    background-color: #fff;
+    margin-right: 23.7em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+.img4{
+    margin-top: -12.9em;
+    margin-left: 44.1em;
+    padding-bottom: 10px;
+    background-color: #fff;
+    margin-right: 4.9em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img5{
+    margin-top: 4.2em;
+    margin-left: 25.3em;
+    padding-bottom: 10px;
+    background-color: #fff;
+    margin-right: 23.68em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img6{
+    margin-top: -11.8em;
+    margin-left: 44.1em;
+    padding-bottom: 10px;
+    background-color: #fff;
+    margin-right: 4.9em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.caption_img1,.caption_img2,.caption_img3,.caption_img4,.caption_img5,.caption_img6{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+.hr1{
+    width: 40em;
+    margin-top: 2em;
+}
+
+
+
+
+
+.head3{
+    margin-left: 0em;
+    width: 60%;
+}
+
+
+
+.aboutus{
+    text-align: center;
+    font-size: 9px;
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: bold;
+    
+}
+
+.about-us-text1{
+    font-size: 12px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+
+
+.aboutus{
+    text-align: center;
+    font-size: 9px;
+    margin-top: 20px;
+    line-height: 2;
+
+}
+
+.about-us-text1{
+    font-size: 14px;
+    text-align: center;
+    
+
+}
+
+ul{
+    list-style-type: none;
+    font-size: 11px;
+
+  }
+
+  .form{
+    width: 5%;
+    height: 2em;
+    padding: 10px;
+    padding-bottom: 20em;
+    margin: 10px;
+    line-height: 2;
+    display: block;
+    margin-top: -12.5em;
+    margin-left: 7.5em;
+    line-height: 1.5;
+
+  }
+
+  #email, #full-name, #textbox{
+    width: auto;
+    height: auto;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    box-sizing: border-box;
+    border: none;
+}
+
+input [type="text"]::placeholder{
+    margin-left: 40px;
+    
+}
+
+input [type="email"]::placeholder{
+    margin-left: auto;
+}
+
+
+#textbox{
+    height: 50px;
+    
+}
+
+.connectus{
+    text-align:center;
+    /* margin-left:39em ; */
+    margin-top: -1em;
+    margin-bottom: 2em;
+    font-size: 12;
+    font-weight: bold;
+    
+
+}
+.about-us-text1 li:hover{
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+.aboutus ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .aboutus ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    text-decoration: none; /* Remove default underline */
+    transition: text-decoration 0.3s; /* Smooth transition for underline */
+  }
+  
+  .aboutus ul li:hover {
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+
+
+  /* Connect Us Social Media  */
+
+.wrapper{
+    text-align: center;
+    margin-top: -30px;
+}
+
+  .wrapper .icon{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+  }
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+  }
+  
+
+
+
+

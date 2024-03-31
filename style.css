@@ -1,0 +1,691 @@
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('your-background-image.jpg'); /* Replace with the actual URL or path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0); 
+
+
+    background-image: url("F:\PBL-6\Destination Wedding\destination-wedding.png");
+    /* background-color: rgb(184, 242, 255); */
+    background: linear-gradient(90deg, rgb(248, 168, 217) 0%, white 50%, rgb(248, 168, 217) 100%);
+    /* background: linear-gradient(180deg, White 30%,rgb(226, 14, 205) 100%); */
+
+}
+
+header {
+    background-color: rgb(4, 4, 4);
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    background-color: rgb(226, 14, 205);
+    padding: 10px;
+    /* background: linear-gradient(90deg, White 10%,rgb(226, 14, 205) 50%); */
+    background: linear-gradient(90deg, rgb(255, 23, 166) 0%, white 50%, rgb(255, 23, 161) 100%);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover{
+    color: blue;
+    }
+    
+
+.homebg1{
+    display: block;
+    background-size: cover;
+    width: 65%;
+    height: 300px;
+}
+
+/* .homebg1{ 
+    width: 600px;
+    height: 300px;
+    margin-left: 8em;
+    margin-right: auto;
+    margin-top: 2em;
+}*/
+
+.bg_image_text{
+    margin-top: -10em;
+    margin-left: 10em;
+    line-height: 2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+p{
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    height: 250px;
+    
+}
+
+.bg-home-text{
+    text-align: center;
+    margin-top: -14em;
+    margin-left: -12em;
+}
+
+.day-date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+    margin-right: -100px;
+    margin-top: 40px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    opacity:0.7; 
+}
+
+select:focus{
+    outline: none;
+}
+
+.members{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27%;
+    margin-right: -100px;
+    margin-top: 40px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    opacity: 0.7;
+}
+
+
+section {
+    padding: 20px;
+}
+
+.home1{
+    margin-left: 2.8em;
+    margin-top: 5em;
+    
+}
+
+h2.head1{
+
+    /*background-image: url("Images/Couple.jpg"  ); */
+    color: black;
+    text-align: left;
+    margin-left: 2em;
+    margin-top: 2em;
+    
+}
+
+p.p1{
+    color: black;
+    
+}
+
+
+div.home1{
+    text-align: center;
+}
+
+.p1{
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+    height: 125px;
+    
+
+
+    font-size: 9px;
+    margin-left: 50px;
+    margin-right: 50%;
+    text-align: justify;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+   /*  padding-bottom: -50px;  */
+    
+    
+}
+
+
+.home_bg2{
+    display: flex;
+    background-size: cover;
+    width: 250px;
+    height: 275px;
+    margin-top: 2em;
+    margin-left: 10em;
+}
+
+
+
+h2.head2{
+    text-align: center;
+}
+
+
+
+p3.arrangements_list{
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 5px;
+    
+    margin-right: 10px;
+    margin-left: 45em;
+    margin-top: -22em;
+    font-size: 10px;
+    padding: 5px;
+    border: 1.2px solid blue;
+    box-shadow: 5px 2px 2px blue;
+    text-align:left;
+    width: 23em;
+    height: 23em;
+    border: radius 10px; ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+
+
+}
+
+
+
+.hr1{
+    width: 41em;
+    border-top: black solid 1px ;
+    margin-top: 20px;
+}
+
+.home_div2{
+    padding-left: 5px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+    
+}
+
+.home_div2:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                0 3px 5px -1px rgba(0, 0, 0, 0.4)
+  }
+
+h2.head2{
+    align-items: center;
+}
+
+p.p2{
+    text-align: justify;
+    font-size: 8px;
+    margin-left: 60%;
+    margin-right: 15em;
+    margin-top: -34em;
+    overflow-wrap: break-word;
+    display: block;
+    width: 35em;
+    height: 29em;
+ 
+}
+
+.emoji{
+    list-style: none;
+}
+
+.emoji1{
+    margin-left: 35em;
+    margin-top: -15.9em;
+}
+
+.emoji2{
+    margin-left: 35em;
+    margin-top: 1.2em;
+}
+
+.emoji3{
+    margin-left: 35em;
+    margin-top: 1.7em;
+}
+
+.emoji4{
+    margin-left: 35em;
+    margin-top: 1.5em;
+}
+
+.emoji5{
+    margin-left: 35em;
+    margin-top: 1.3em;
+}
+
+.hr2{
+    width: 41em;
+    border-top: black solid 1px ;
+    margin-top: 20px;
+
+}
+
+
+h2.head3{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.destinations{
+    display: flex;
+    /* flex-wrap: wrap; */
+    row-gap: 10px;
+  /*  justify-content:space-between;     */
+  margin: 20px 30px ;
+  overflow-y:scroll;
+  scrollbar-width:thin;
+  
+}
+
+.card1-col{
+    
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1px 15px;
+    background-color: #fff;
+    max-width: 152px;
+}
+
+.card-text-font{
+    font-size: 15px;
+    color: black;
+}
+
+/* Destinations */
+
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.destination_manali,.destination_ladakh,.destination_andaman,.destination_udaipur,.destination_shimla,.destination_jodhpur,.destination_goa,.destination_madhu{
+    margin-left: 20px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.manali{
+    width: 225px;
+    height: 150px;
+    display: flex;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.caption_Manali{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.destination_manali:hover , .destination_ladakh:hover, .destination_andaman:hover, .destination_udaipur:hover, .destination_jodhpur:hover, .destination_shimla:hover, .destination_goa:hover, .destination_madhu:hover {
+    cursor:pointer;
+    z-index: 0;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.33);
+    transform: (1.1, 1.1);
+    -webkit-transform: (1.1, 1.1);
+    -moz-transform: (1.1, 1.1);
+    -ms-transform: (1.1, 1.1);
+    -o-transform: (1.1, 1.1);
+}
+
+.destination_manali:hover .caption_Manali {
+    position: relative;
+}
+
+
+
+.destination_manali,.destination_ladakh,.destination_andaman,.destination_udaipur,.destination_shimla,.destination_jodhpur,.destination_goa,.destination_madhu:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.14),
+                0 1px 18px 0 rgba(0, 0, 0, 0.12),
+                0 3px 5px -1px rgba(0, 0, 0, 0.4)
+
+  }
+
+  .hr3{
+    width: 41em;
+    border-top: black solid 1px ;
+}
+
+.aboutus{
+    text-align: center;
+    font-size: 9px;
+    margin-top: 20px;
+    line-height: 2;
+    font-weight: bold;
+
+}
+
+.about-us-text1{
+    font-size: 14px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    font-size: 11px;
+
+  }
+
+
+
+.connectus{
+    text-align:center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 12;
+    font-weight: bold;
+    
+
+}
+.about-us-text1 li:hover{
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+.aboutus ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  
+  .aboutus ul li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    text-decoration: none; /* Remove default underline */
+    transition: text-decoration 0.3s; /* Smooth transition for underline */
+  }
+  
+  .aboutus ul li:hover {
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+
+
+  /* Connect Us Social Media  */
+
+.wrapper{
+    text-align: center;
+    margin-top: -30px;
+}
+
+  .wrapper .icon{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    font-size: 22px;
+    display: inline-block;
+    align-items: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    color: #333;
+    text-decoration: none;
+  }
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background-color: #ffffff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background-color: #3b5999;
+    color: #ffffff;
+  }
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background-color: #46c1f6;
+    color: #ffffff;
+  }
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background-color: #e1306c;
+    color: #ffffff;
+  }
+  .wrapper .github:hover,
+  .wrapper .github:hover .tooltip,
+  .wrapper .github:hover .tooltip::before {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  .wrapper .youtube:hover,
+  .wrapper .youtube:hover .tooltip,
+  .wrapper .youtube:hover .tooltip::before {
+    background-color: #de463b;
+    color: #ffffff;
+  }
+
+
+
+  /* Responsive  */
+
+  /* @media (max-width: 752px) {
+    .Header{
+        font-size: 50px;
+    }
+    .navbar{
+
+    }
+  } */
+
+
+  /* Styles specific to 752px width and below */
+@media screen and (max-width: 752px) {
+    /* Adjustments for the background image */
+    body {
+        background-image: none; /* Remove the background image */
+        background: linear-gradient(90deg, rgb(248, 168, 217) 0%, white 50%, rgb(248, 168, 217) 100%);
+    }
+
+    /* Adjustments for the header and nav */
+    header {
+        padding: 0.5em;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* Allow navigation items to wrap */
+    }
+
+    nav li {
+        margin: 5px;
+    }
+
+    nav a {
+        font-size: 14px; /* Reduce font size */
+    }
+
+    .homebg1 {
+        width: 100%; /* Make the background image cover the entire width */
+        margin: 0; /* Remove margins */
+        height: 200px; /* Adjust height */
+    }
+
+    .bg_image_text {
+        margin-top: -8em; /* Adjust margin */
+        margin-left: 5%; /* Adjust margin */
+        line-height: 1.5; /* Adjust line height */
+    }
+
+    /* Add more responsive adjustments as needed */
+
+}
+
+
+@media (max-width: 740px){
+    .header{
+        padding: 0.3em;
+    }
+
+    nav {
+        padding: 3px;
+    }
+
+    nav ul {
+        flex-wrap: wrap; /* Allow navigation items to wrap */
+    }
+
+    nav li {
+        margin: 3px;
+    }
+
+    nav a {
+        font-size: 12px; /* Reduce font size */
+    }
+    .p1, .head1{
+        margin-left: 15em;
+    }
+
+    .arrangements_list{
+        display: block;
+        position: absolute;
+        right: 25em;
+        bottom: 0em;
+        /* top: 1em; */
+        margin-top: 100px;
+    }
+    .hr1{
+        display: none;
+    }
+    .major_box2{
+        margin-top: 20em;
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .home_bg2{
+        top: 8em;
+        
+    }
+    .p2{
+        display: none;
+    }
+
+    .homebg1 {
+        width: 100%; /* Make the background image cover the entire width */
+        margin: 0; /* Remove margins */
+        height: 250px; /* Adjust height */
+    }
+
+    .bg_image_text {
+        margin-top: -10em; /* Adjust margin */
+        margin-left: 3%; /* Adjust margin */
+        line-height: 1.25; /* Adjust line height */
+    }
+
+}
